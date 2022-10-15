@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+
+.grid {
+  display: grid;
+  grid-template-areas: "header" "nav nav" "section1 section2" "aside aside" "foot foot"; }
+
+.a {
+  grid-area: header;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.b {
+  grid-area: nav;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  background-color: black;
+  text-align: left;
+  text-decoration: none; }
+
+.c {
+  grid-area: section1;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 50px; }
+
+.d {
+  grid-area: section2;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+  border: 2px solid black;
+  margin: 40px;
+  padding: 50px; }
+
+.e {
+  grid-area: aside;
+  text-align: center;
+  color: white;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+
+.c2 {
+  grid-area: section2;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+
+.d2 {
+  grid-area: section2;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 20%; }
+
+.h2 {
+  color: black;
+  background-color: #def5f0;
+  background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+  text-align: center; }
+
+.titulo {
+  -webkit-text-stroke: 2px black;
+  color: white;
+  height: 100%;
+  color: white;
+  text-align: center; }
+
+.publicidad {
+  width: 100px;
+  height: 100px; }
+
+.botones {
+  color: white; }
+
+.noticias {
+  color: black;
+  text-align: center; }
+
+.imagen2 {
+  width: 100%;
+  height: 50%; }
+
+.centrar {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+@media screen and (min-width: 100px) and (max-width: 640px) {
+  body {
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+  .grid {
+    display: flex;
+    flex-direction: column; }
+  .c2 {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30%; }
+  .d2 {
+    grid-area: section2;
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%; }
+  .carousel, .carousel-inner > .item > img {
+    width: 100%;
+    height: 50%; }
+  .titulo {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    height: 100%;
+    color: white;
+    text-align: center; }
+  .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (min-width: 640px) and (max-width: 1280px) {
+  body {
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+  .grid {
+    display: flex;
+    flex-direction: column; }
+  .titulo {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    height: 100%;
+    color: white;
+    text-align: center; }
+  .c2 {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30%; }
+  .d2 {
+    grid-area: section2;
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%; }
+  .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }
+
+@media screen and (min-width: 1280px) and (max-width: 2000px) {
+  body {
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%); }
+  .grid {
+    display: flex;
+    flex-direction: column; }
+  .titulo {
+    -webkit-text-stroke: 2px black;
+    color: white;
+    height: 100%;
+    color: white;
+    text-align: center; }
+  .c2 {
+    background-color: white;
+    color: black;
+    width: 100%;
+    height: 30%; }
+  .d2 {
+    grid-area: section2;
+    background-color: #def5f0;
+    background-image: linear-gradient(215deg, #def5f0 0%, #3552e6 100%);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 20%; }
+  .imagen {
+    width: 100%;
+    height: 50%; }
+  .centrar {
+    display: flex;
+    align-items: center;
+    justify-content: center; } }

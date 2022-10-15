@@ -1,0 +1,33 @@
+$color_1: white;
+$color_2: black;
+
+.titulo {
+	-webkit-text-stroke: 2px black;
+	color: $color_1;
+	height: 100%;
+	color: $color_1;
+	text-align: center;
+}
+.publicidad {
+	width: 100px;
+	height: 100px;
+}
+.botones {
+	color: $color_1;
+}
+.noticias {
+	color: $color_2;
+	text-align: center;
+}
+.imagen2 {
+	width: 100%;
+	height: 50%;
+}
+.centrar {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+
