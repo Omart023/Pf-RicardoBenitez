@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Omart023/Primer-proyecto.git"
+    "url": "git+https://github.com/Omart023/Pf-RicardoBenitez.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Omart023/Primer-proyecto/issues"
+    "url": "https://github.com/Omart023/Pf-RicardoBenitez.git/issues"
   },
-  "homepage": "https://github.com/Omart023/Primer-proyecto#readme",
+  "homepage": "https://github.com/Omart023/Pf-RicardoBenitez.git#readme",
   "devDependencies": {
     "node-sass": "^7.0.3",
     "nodemon": "^2.0.20"
